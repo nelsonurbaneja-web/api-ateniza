@@ -99,18 +99,20 @@
       "status": false
     },
     {
-      "name": "El mejor producto",
+      "name": "El mejor producto :)",
       "description": "El mejor producto de todos los tiempos",
       "category": "telecom",
       "sub_category": "servicios_de _internet",
       "otherCategories": [
         "Satelital",
         "Microondas",
-        "Fibra Óptica"
+        "Fibra Óptica",
+        "HFC",
+        "Cobre"
       ],
-      "initDate": "2021-11-19T18:58:52.773Z",
+      "initDate": "2021-12-13T16:38:48.577Z",
       "currency": "USD",
-      "finalitationDate": "2021-12-22T18:18:40.442Z",
+      "finalitationDate": "2021-12-13T16:38:50.426Z",
       "name_presentation": " nombre de la presentación",
       "price": "120",
       "inventary": "100",
@@ -123,12 +125,133 @@
       "id": 2
     }
   ],
+  "campaings": [
+    {
+      "typecampaing": 1,
+      "name": "Mi campaña",
+      "description": "Campaña para vender mas",
+      "objectives": "ventas",
+      "actions": [
+        "Contratación",
+        "Renovación",
+        "Reserva"
+      ],
+      "tags": [
+        "Contratación",
+        "Renovación",
+        "Reserva"
+      ],
+      "initDate": "2021-12-16T16:29:12.255Z",
+      "initHour": "01:32",
+      "finalitationDate": "2021-12-09T16:29:18.669Z",
+      "finalitationHour": "17:35",
+      "frecuence": "Frecuencia de la campaña: ",
+      "profilesAssing": null,
+      "status": true,
+      "actionIM": null,
+      "actionWebChat": null,
+      "actionEmails": null,
+      "actionCall": null,
+      "actionOparadores": null,
+      "actionSms": null,
+      "id": 3
+    },
+    {
+      "typecampaing": 2,
+      "name": "Campaña 4",
+      "description": "la mejor campaña typecampaing de todos los tiempos",
+      "objectives": "ventas",
+      "actions": [
+        "Reserva",
+        "Renovación",
+        "Contratación"
+      ],
+      "tags": [
+        "Contratación",
+        "Reserva"
+      ],
+      "initDate": "2021-12-13T16:32:39.059Z",
+      "initHour": "18:30",
+      "finalitationDate": "2021-12-13T16:32:41.949Z",
+      "finalitationHour": "04:28",
+      "frecuence": "Frecuencia de la campaña: ",
+      "profilesAssing": null,
+      "status": true,
+      "nivel": null,
+      "actionIM": null,
+      "actionWebChat": null,
+      "actionEmails": null,
+      "actionCall": null,
+      "actionOparadores": null,
+      "actionSms": null,
+      "id": 5
+    },
+    {
+      "typecampaing": 1,
+      "name": "Campaña 5",
+      "description": "descriptopo",
+      "objectives": "ventas",
+      "actions": [
+        "Contratación",
+        "Renovación",
+        "Reserva"
+      ],
+      "tags": [
+        "Contratación",
+        "Renovación",
+        "Reserva"
+      ],
+      "initDate": "2021-12-13T19:35:41.450Z",
+      "initHour": "09:35",
+      "finalitationDate": "2021-12-13T19:35:47.730Z",
+      "finalitationHour": "06:32",
+      "frecuence": "Frecuencia de la campaña: ",
+      "profilesAssing": null,
+      "status": true,
+      "actionIM": null,
+      "actionWebChat": null,
+      "actionEmails": 194,
+      "actionCall": null,
+      "actionOparadores": 750,
+      "actionSms": null,
+      "id": 6
+    },
+    {
+      "name": "aa",
+      "description": "descriptopo",
+      "objectives": "ventas",
+      "actions": [
+        "Contratación",
+        "Renovación",
+        "Reserva"
+      ],
+      "tags": [
+        "Contratación"
+      ],
+      "initDate": "2021-12-14T00:09:12.619Z",
+      "initHour": "20:11",
+      "finalitationDate": "2021-12-14T00:09:17.111Z",
+      "finalitationHour": "12:15",
+      "frecuence": "Frecuencia de la campaña: ",
+      "typecampaing": 2,
+      "profilesAssing": null,
+      "status": "draft",
+      "nivel": null,
+      "actionIM": 1295,
+      "actionWebChat": null,
+      "actionEmails": 302,
+      "actionCall": null,
+      "actionOparadores": null,
+      "actionSms": null,
+      "id": 7
+    }
+  ],
   "categories": [
     {
       "id": 1,
       "name": "Catgory 1",
       "category": "Telecom",
-      "status": true
+      "status": false
     },
     {
       "id": 2,
@@ -143,7 +266,7 @@
       "status": false
     },
     {
-      "name": "Nelson G. Jr Mok",
+      "name": "Categoria prueba",
       "category": "telecom",
       "status": true,
       "id": 4
