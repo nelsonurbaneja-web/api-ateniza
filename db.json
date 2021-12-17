@@ -1,9 +1,9 @@
 {
   "profiles": [
     {
-      "name": "Jose A",
-      "lastName": "Martínez Perez",
-      "email": "jose.perezx@gmail.com",
+      "name": "Prueba 1",
+      "lastName": "Prueba 1",
+      "email": "prueba1@gmail.com",
       "phone": "04125236558",
       "role": [
         "Administrativo",
@@ -13,22 +13,9 @@
       "id": 1
     },
     {
-      "name": "Carmencita 1",
-      "lastName": "Pereira",
-      "email": "carmencita@gmail.com",
-      "phone": "02126321585",
-      "role": [
-        "Administrativo",
-        "Funcional",
-        "Agente"
-      ],
-      "campain": "Campaña 01",
-      "id": 3
-    },
-    {
-      "name": "Nelson",
-      "lastName": "Urbaneja",
-      "email": "nurbaneja@ninweb.net",
+      "name": "Prueba 2",
+      "lastName": "Prueba 2",
+      "email": "prueba2@gmail.com",
       "phone": "0412652547",
       "role": [
         "Agente",
@@ -37,41 +24,6 @@
       ],
       "campain": "Campaña 01",
       "id": 5
-    },
-    {
-      "name": "Usuario import masivo",
-      "lastName": "Usuario Perez",
-      "email": "usuario.masive@gmail.com",
-      "phone": "04125236558",
-      "role": [
-        "Administrativo",
-        "Agente"
-      ],
-      "campain": "Campaña 01",
-      "id": 6
-    },
-    {
-      "name": "prueba",
-      "lastName": "Usuario Perez",
-      "email": "prueba@gmail.com",
-      "phone": "04125236558",
-      "role": [
-        "Administrativo",
-        "Agente"
-      ],
-      "campain": "Campaña 01",
-      "id": 7
-    },
-    {
-      "name": "Lisa",
-      "lastName": "aaa",
-      "email": "maria@gmail.com",
-      "phone": "2323232323",
-      "role": [
-        "Agente"
-      ],
-      "campain": "Campaña 01",
-      "id": 8
     }
   ],
   "products": [
@@ -217,8 +169,9 @@
       "id": 6
     },
     {
-      "name": "aa",
-      "description": "descriptopo",
+      "typecampaing": 1,
+      "name": "Campaña prueba",
+      "description": "Description Campaña prueba",
       "objectives": "ventas",
       "actions": [
         "Contratación",
@@ -226,23 +179,24 @@
         "Reserva"
       ],
       "tags": [
-        "Contratación"
+        "Contratación",
+        "Renovación",
+        "Reserva"
       ],
-      "initDate": "2021-12-14T00:09:12.619Z",
-      "initHour": "20:11",
-      "finalitationDate": "2021-12-14T00:09:17.111Z",
-      "finalitationHour": "12:15",
+      "initDate": "2021-12-23T17:43:53.348Z",
+      "initHour": "02:46",
+      "finalitationDate": "2021-11-30T17:43:59.624Z",
+      "finalitationHour": "02:48",
       "frecuence": "Frecuencia de la campaña: ",
-      "typecampaing": 2,
+      "nivel": 1,
       "profilesAssing": null,
-      "status": "draft",
-      "nivel": null,
-      "actionIM": 1295,
+      "status": true,
+      "actionIM": null,
       "actionWebChat": null,
-      "actionEmails": 302,
+      "actionEmails": 52,
       "actionCall": null,
       "actionOparadores": null,
-      "actionSms": null,
+      "actionSms": 375,
       "id": 7
     }
   ],
@@ -270,6 +224,151 @@
       "category": "telecom",
       "status": true,
       "id": 4
+    }
+  ],
+  "inbound-graph": [
+    {
+      "id": 1,
+      "date": "11/14",
+      "callInbound": 10,
+      "callOutbound": 16
+    },
+    {
+      "id": 2,
+      "date": "15/20",
+      "callInbound": 20,
+      "callOutbound": 18
+    },
+    {
+      "id": 3,
+      "date": "21/30",
+      "callInbound": 14,
+      "callOutbound": 43
+    }
+  ],
+  "questionsandanswers": [
+    {
+      "id": 2,
+      "question": "¿Cómo adquiero el producto?",
+      "answers": "Se debe registrar",
+      "namelist": "base 2",
+      "listId": 5
+    },
+    {
+      "question": "¿Como creo una campaña?",
+      "answers": "Se crea facilito..",
+      "listId": 1,
+      "namelist": "base 3",
+      "id": 3
+    }
+  ],
+  "knowledgebase": [
+    {
+      "id": 1,
+      "name": "Base 1",
+      "number": 10
+    },
+    {
+      "id": 2,
+      "name": "base 2",
+      "number": 20
+    },
+    {
+      "name": "base 3",
+      "number": 0,
+      "id": 3
+    },
+    {
+      "name": "base 4",
+      "number": 0,
+      "id": 4
+    },
+    {
+      "name": "base 5",
+      "number": 0,
+      "id": 5
+    }
+  ],
+  "settings": [
+    {
+      "host": "www.ozeki.hu",
+      "port": "9476",
+      "user": "PavelJuan",
+      "password": "123456",
+      "operator": "tmobile",
+      "phone": "02125236541",
+      "voiceprofile": "vp1",
+      "localport": "5060-6",
+      "primaryproxy": " 212.106.212.78",
+      "primaryoutboundproxy": " 212.106.212.78",
+      "primaryproxyport": "5060-6",
+      "secondaryproxy": "212.106.212.62",
+      "secondaryoutboundproxy": "212.106.212.62",
+      "secondaryproxyport": "5060",
+      "primaryregistraserver": "ims.jazztel.net",
+      "secondaryregistraserver": "ims.jazztel.net",
+      "registerexpires": "3600",
+      "unregister": false,
+      "enablelinktest": true,
+      "linktestinterval": "1800",
+      "id": 1
+    }
+  ],
+  "walletuser": [
+    {
+      "total": 92,
+      "id": 1
+    }
+  ],
+  "recargas": [
+    {
+      "id": 1,
+      "mont": "20",
+      "date": "2021-12-16T00:54:43.438Z",
+      "method": "Zelle",
+      "description": "Recarga"
+    },
+    {
+      "mont": "45",
+      "date": "2021-12-17T18:03:40.439Z",
+      "method": "e4Cash",
+      "description": "Recarga",
+      "id": 2
+    },
+    {
+      "mont": "13",
+      "date": "2021-12-17T19:00:26.749Z",
+      "method": "Tranferencias bancarias",
+      "description": "Recarga",
+      "id": 3
+    },
+    {
+      "mont": "1",
+      "date": "2021-12-17T19:09:17.581Z",
+      "method": "e4Cash",
+      "description": "Recarga",
+      "id": 4
+    },
+    {
+      "mont": "2",
+      "date": "2021-12-17T19:29:38.830Z",
+      "method": "e4Cash",
+      "description": "Recarga",
+      "id": 5
+    },
+    {
+      "mont": "9",
+      "date": "2021-12-17T19:31:22.263Z",
+      "method": "Tranferencias bancarias",
+      "description": "Recarga",
+      "id": 6
+    },
+    {
+      "mont": "2",
+      "date": "2021-12-17T19:34:02.605Z",
+      "method": "Tranferencias Zelle",
+      "description": "Recarga",
+      "id": 7
     }
   ],
   "user": {
